@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+.best-way {
+    background-color: #fbbd08; /* Fondo amarillo */
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.best-way .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1; /* Colocar la imagen de fondo detrás del texto */
+}
+
+.best-way .text-content {
+    padding: 20px;
+    max-width: 60%;
+}
+
+.best-way h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.best-way p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+
+.best-way .hero-img {
+    max-width: 40%;
+    height: auto;
+    margin: 20px 0 0;
+}
+
+.about-school {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-school img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.about-school .text-content {
+    max-width: calc(100% - 120px);
+}
+
+.about-school h2 {
+    color: #000;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.about-school p {
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+}
+
+.admission-open {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row-reverse; /* Invertir la dirección de los elementos */
+}
+
+.admission-open img {
+    max-width: 100px;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.admission-open .text-content {
+    max-width: calc(100% - 120px);
+}
+
+.admission-open h2 {
+    color: #000;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.admission-open p {
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+}
